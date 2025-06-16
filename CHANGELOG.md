@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/ckoliber/xproxy/compare/1.1.2...1.2.0) (2025-06-16)
+
+
+### Features
+
+* add curl ([6cb32c4](https://github.com/ckoliber/xproxy/commit/6cb32c40cc9b6f2045b508fce8e5662c743abb73))
+
 ## [1.1.2](https://github.com/ckoliber/xproxy/compare/1.1.1...1.1.2) (2025-06-16)
 
 
