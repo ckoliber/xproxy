@@ -1,3 +1,14 @@
-:80 {
-    reverse_proxy {$PROXY_URL}
+:80
+
+reverse_proxy {$PROXY_URL} {
+    header_up Host {$PROXY_HOST}
+    header_up X-Forwarded-Host {$PROXY_HOST}
+    header_up X-Real-IP {remote_host}
+    header_up X-Forwarded-For {remote_host}
+    header_up X-Forwarded-Proto {scheme}
+    transport http {
+        dial_timeout 10s
+        response_header_timeout 30s
+    }
+    resolvers 1.1.1.1 8.8.8.8
 }
