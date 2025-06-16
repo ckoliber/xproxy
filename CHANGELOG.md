@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/ckoliber/xproxy/compare/1.0.0...1.1.0) (2025-06-16)
+
+
+### Features
+
+* replace nginx with caddy ([1e6ea5d](https://github.com/ckoliber/xproxy/commit/1e6ea5dd7d45c6d8d410c18e6bf6c14139f505e5))
+
 # 1.0.0 (2025-06-16)
 
 
