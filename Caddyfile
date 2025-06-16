@@ -1,6 +1,5 @@
-:80
-
-reverse_proxy {$PROXY_URL} {
-    header_up Host {$PROXY_HOST}
-    header_up X-Forwarded-Host {$PROXY_HOST}
+:80 {
+    reverse_proxy {$PROXY_URL} {
+        header_up -*
+    }
 }
