@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/ckoliber/xproxy/compare/1.1.0...1.1.1) (2025-06-16)
+
+
+### Bug Fixes
+
+* change Caddyfile ([f682ae8](https://github.com/ckoliber/xproxy/commit/f682ae809d782841357b92f04636653e5c9490ce))
+
 # [1.1.0](https://github.com/ckoliber/xproxy/compare/1.0.0...1.1.0) (2025-06-16)
 
 
