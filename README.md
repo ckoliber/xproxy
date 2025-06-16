@@ -7,7 +7,6 @@
 ```bash
 docker run -d -p 8080:80 \
     -e PROXY_URL="http://your_ws_proxy_url" \
-    -e PROXY_HOST="your_ws_proxy_url" \
     ckoliber/xproxy:latest
 ```
 
