@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/ckoliber/xproxy/compare/1.3.1...1.4.0) (2025-06-16)
+
+
+### Features
+
+* change Caddyfile headers ([ec8d5b6](https://github.com/ckoliber/xproxy/commit/ec8d5b6f7e6e0f5b79e9a2a2d74e48692e60ea06))
+
 ## [1.3.1](https://github.com/ckoliber/xproxy/compare/1.3.0...1.3.1) (2025-06-16)
 
 
