@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/ckoliber/xproxy/compare/1.2.0...1.3.0) (2025-06-16)
+
+
+### Features
+
+* forward Host headers ([d0e651e](https://github.com/ckoliber/xproxy/commit/d0e651ed8aca19768e32ab2b8b0e6bf45ae199d1))
+
 # [1.2.0](https://github.com/ckoliber/xproxy/compare/1.1.2...1.2.0) (2025-06-16)
 
 
