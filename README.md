@@ -1,6 +1,6 @@
 # XProxy
 
-**XProxy** is a lightweight NGINX-based reverse proxy for HTTP and WebSocket traffic. It forwards all requests to an upstream server defined via environment variable.
+**XProxy** is a lightweight Caddy-based reverse proxy for HTTP and WebSocket traffic. It forwards all requests to an upstream server defined via environment variable.
 
 ## 🔧 Usage
 

@@ -1,7 +1,5 @@
-FROM nginx:1.21-alpine
+FROM caddy:2.10.0-alpine
 
-COPY ./nginx.conf /etc/nginx/conf.d/default.conf
-COPY ./00-env.sh /docker-entrypoint.d/00-env.sh
-RUN chmod +x /docker-entrypoint.d/00-env.sh
+COPY ./Caddyfile /etc/caddy/Caddyfile
 
 EXPOSE 80
