@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/ckoliber/xproxy/compare/1.1.1...1.1.2) (2025-06-16)
+
+
+### Bug Fixes
+
+* change Dockerfile expose ([cc12bc1](https://github.com/ckoliber/xproxy/commit/cc12bc15c0316bfe721c00784a99c0fbe1376ed1))
+
 ## [1.1.1](https://github.com/ckoliber/xproxy/compare/1.1.0...1.1.1) (2025-06-16)
 
 
